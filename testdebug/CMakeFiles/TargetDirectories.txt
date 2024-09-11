@@ -1,0 +1,5 @@
+/home/william/embeddedprojects/testdebug/CMakeFiles/testdebug.dir
+/home/william/embeddedprojects/testdebug/CMakeFiles/edit_cache.dir
+/home/william/embeddedprojects/testdebug/CMakeFiles/rebuild_cache.dir
+/home/william/embeddedprojects/testdebug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/home/william/embeddedprojects/testdebug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
