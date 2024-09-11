@@ -41,10 +41,8 @@ CMakeFiles/DisplayLed2.dir/Core/Src/main.c.obj: Core/Src/main.c \
   /usr/include/newlib/machine/ieeefp.h \
   /usr/include/newlib/sys/features.h \
   Core/Inc/ssd1306_conf.h \
-  Core/Inc/ssd1306_conf.h \
   Core/Inc/ssd1306_fonts.h \
-  Core/Inc/ssd1306.h \
-  Core/Inc/ssd1306_tests.h
+  Core/Inc/ssd1306.h
 
 CMakeFiles/DisplayLed2.dir/Core/Src/ssd1306.c.obj: Core/Src/ssd1306.c \
   Core/Inc/ssd1306.h \
@@ -1045,8 +1043,6 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c:
 
 /usr/include/newlib/sys/_stdint.h:
 
-/usr/include/newlib/stdio.h:
-
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c:
 
 Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c:
@@ -1151,6 +1147,10 @@ Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_flash.h:
 
 Drivers/CMSIS/Include/core_cm4.h:
 
+Core/Inc/ssd1306_tests.h:
+
+/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
+
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:
 
 /usr/include/newlib/math.h:
@@ -1181,10 +1181,6 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c:
 
 /usr/include/newlib/sys/features.h:
 
-/usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
-
-Core/Inc/ssd1306_tests.h:
-
 /usr/include/newlib/machine/_default_types.h:
 
 /usr/include/newlib/sys/cdefs.h:
@@ -1198,3 +1194,5 @@ Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_exti.c:
 Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_dma.h:
 
 Core/Src/ssd1306_tests.c:
+
+/usr/include/newlib/stdio.h:

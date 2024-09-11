@@ -36,7 +36,5 @@ CMakeFiles/DisplayLed2.dir/Core/Src/main.c.obj: \
  /usr/include/newlib/_newlib_version.h /usr/include/newlib/sys/config.h \
  /usr/include/newlib/machine/ieeefp.h /usr/include/newlib/sys/features.h \
  /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306_conf.h \
- /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306_conf.h \
  /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306_fonts.h \
- /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306.h \
- /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306_tests.h
+ /home/william/embeddedprojects/DisplayLed2/cmake/stm32cubemx/../../Core/Inc/ssd1306.h
