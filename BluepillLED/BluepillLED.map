@@ -3275,7 +3275,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x7610
+.text           0x000000000800010c     0x761c
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
@@ -3284,572 +3284,572 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  .text          0x00000000080001dc       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
                 0x00000000080001dc                memset
  *(.text*)
- .text.main     0x0000000008000280       0xa0 CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
+ .text.main     0x0000000008000280       0xac CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
                 0x0000000008000280                main
  .text.SystemClock_Config
-                0x0000000008000320       0xb6 CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
-                0x0000000008000320                SystemClock_Config
- *fill*         0x00000000080003d6        0x2 
+                0x000000000800032c       0xb6 CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
+                0x000000000800032c                SystemClock_Config
+ *fill*         0x00000000080003e2        0x2 
  .text.MX_GPIO_Init
-                0x00000000080003d8       0xc0 CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
+                0x00000000080003e4       0xc0 CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x0000000008000498        0xa CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
-                0x0000000008000498                Error_Handler
+                0x00000000080004a4        0xa CMakeFiles/BluepillLED.dir/Core/Src/main.c.obj
+                0x00000000080004a4                Error_Handler
  .text.NMI_Handler
-                0x00000000080004a2        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004a2                NMI_Handler
- .text.HardFault_Handler
-                0x00000000080004a8        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004a8                HardFault_Handler
- .text.MemManage_Handler
                 0x00000000080004ae        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004ae                MemManage_Handler
- .text.BusFault_Handler
+                0x00000000080004ae                NMI_Handler
+ .text.HardFault_Handler
                 0x00000000080004b4        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004b4                BusFault_Handler
- .text.UsageFault_Handler
+                0x00000000080004b4                HardFault_Handler
+ .text.MemManage_Handler
                 0x00000000080004ba        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004ba                UsageFault_Handler
+                0x00000000080004ba                MemManage_Handler
+ .text.BusFault_Handler
+                0x00000000080004c0        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080004c0                BusFault_Handler
+ .text.UsageFault_Handler
+                0x00000000080004c6        0x6 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080004c6                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080004c0        0xc CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004c0                SVC_Handler
- .text.DebugMon_Handler
                 0x00000000080004cc        0xc CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004cc                DebugMon_Handler
- .text.PendSV_Handler
+                0x00000000080004cc                SVC_Handler
+ .text.DebugMon_Handler
                 0x00000000080004d8        0xc CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004d8                PendSV_Handler
- .text.SysTick_Handler
+                0x00000000080004d8                DebugMon_Handler
+ .text.PendSV_Handler
                 0x00000000080004e4        0xc CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004e4                SysTick_Handler
+                0x00000000080004e4                PendSV_Handler
+ .text.SysTick_Handler
+                0x00000000080004f0        0xc CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080004f0                SysTick_Handler
  .text.USB_LP_CAN1_RX0_IRQHandler
-                0x00000000080004f0       0x14 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
-                0x00000000080004f0                USB_LP_CAN1_RX0_IRQHandler
+                0x00000000080004fc       0x14 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000000080004fc                USB_LP_CAN1_RX0_IRQHandler
  .text.HAL_MspInit
-                0x0000000008000504       0x64 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x0000000008000504                HAL_MspInit
+                0x0000000008000510       0x64 CMakeFiles/BluepillLED.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0000000008000510                HAL_MspInit
  .text.MX_USB_DEVICE_Init
-                0x0000000008000568       0x60 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usb_device.c.obj
-                0x0000000008000568                MX_USB_DEVICE_Init
+                0x0000000008000574       0x60 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usb_device.c.obj
+                0x0000000008000574                MX_USB_DEVICE_Init
  .text.USBD_FS_DeviceDescriptor
-                0x00000000080005c8       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080005c8                USBD_FS_DeviceDescriptor
+                0x00000000080005d4       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080005d4                USBD_FS_DeviceDescriptor
  .text.USBD_FS_LangIDStrDescriptor
-                0x00000000080005ec       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080005ec                USBD_FS_LangIDStrDescriptor
+                0x00000000080005f8       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080005f8                USBD_FS_LangIDStrDescriptor
  .text.USBD_FS_ProductStrDescriptor
-                0x0000000008000610       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0000000008000610                USBD_FS_ProductStrDescriptor
+                0x000000000800061c       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x000000000800061c                USBD_FS_ProductStrDescriptor
  .text.USBD_FS_ManufacturerStrDescriptor
-                0x000000000800064c       0x28 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x000000000800064c                USBD_FS_ManufacturerStrDescriptor
+                0x0000000008000658       0x28 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008000658                USBD_FS_ManufacturerStrDescriptor
  .text.USBD_FS_SerialStrDescriptor
-                0x0000000008000674       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0000000008000674                USBD_FS_SerialStrDescriptor
+                0x0000000008000680       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008000680                USBD_FS_SerialStrDescriptor
  .text.USBD_FS_ConfigStrDescriptor
-                0x0000000008000698       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x0000000008000698                USBD_FS_ConfigStrDescriptor
+                0x00000000080006a4       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080006a4                USBD_FS_ConfigStrDescriptor
  .text.USBD_FS_InterfaceStrDescriptor
-                0x00000000080006d4       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
-                0x00000000080006d4                USBD_FS_InterfaceStrDescriptor
+                0x00000000080006e0       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x00000000080006e0                USBD_FS_InterfaceStrDescriptor
  .text.Get_SerialNum
-                0x0000000008000710       0x58 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x000000000800071c       0x58 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.IntToUnicode
-                0x0000000008000768       0x7c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+                0x0000000008000774       0x7c CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
  .text.CDC_Init_FS
-                0x00000000080007e4       0x28 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x00000000080007f0       0x28 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_DeInit_FS
-                0x000000000800080c        0xe CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
- *fill*         0x000000000800081a        0x2 
+                0x0000000008000818        0xe CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+ *fill*         0x0000000008000826        0x2 
  .text.CDC_Control_FS
-                0x000000000800081c       0xbc CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x0000000008000828       0xbc CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.CDC_Receive_FS
-                0x00000000080008d8       0x54 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
+                0x00000000080008e4       0x54 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_cdc_if.c.obj
  .text.HAL_PCD_MspInit
-                0x000000000800092c       0x4c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800092c                HAL_PCD_MspInit
+                0x0000000008000938       0x4c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000938                HAL_PCD_MspInit
  .text.HAL_PCD_SetupStageCallback
-                0x0000000008000978       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000978                HAL_PCD_SetupStageCallback
+                0x0000000008000984       0x24 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000984                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x000000000800099c       0x36 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x000000000800099c                HAL_PCD_DataOutStageCallback
+                0x00000000080009a8       0x36 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x00000000080009a8                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x00000000080009d2       0x34 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x00000000080009d2                HAL_PCD_DataInStageCallback
+                0x00000000080009de       0x34 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x00000000080009de                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x0000000008000a06       0x1c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000a06                HAL_PCD_SOFCallback
+                0x0000000008000a12       0x1c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000a12                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x0000000008000a22       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000a22                HAL_PCD_ResetCallback
- *fill*         0x0000000008000a5e        0x2 
+                0x0000000008000a2e       0x3c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000a2e                HAL_PCD_ResetCallback
+ *fill*         0x0000000008000a6a        0x2 
  .text.HAL_PCD_SuspendCallback
-                0x0000000008000a60       0x34 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000a60                HAL_PCD_SuspendCallback
+                0x0000000008000a6c       0x34 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000a6c                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x0000000008000a94       0x1c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000a94                HAL_PCD_ResumeCallback
+                0x0000000008000aa0       0x1c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000aa0                HAL_PCD_ResumeCallback
  .text.USBD_LL_Init
-                0x0000000008000ab0       0xb4 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000ab0                USBD_LL_Init
+                0x0000000008000abc       0xb4 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000abc                USBD_LL_Init
  .text.USBD_LL_Start
-                0x0000000008000b64       0x36 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000b64                USBD_LL_Start
+                0x0000000008000b70       0x36 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000b70                USBD_LL_Start
  .text.USBD_LL_OpenEP
-                0x0000000008000b9a       0x4c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000b9a                USBD_LL_OpenEP
+                0x0000000008000ba6       0x4c CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000ba6                USBD_LL_OpenEP
  .text.USBD_LL_CloseEP
-                0x0000000008000be6       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000be6                USBD_LL_CloseEP
+                0x0000000008000bf2       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000bf2                USBD_LL_CloseEP
  .text.USBD_LL_StallEP
-                0x0000000008000c24       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000c24                USBD_LL_StallEP
+                0x0000000008000c30       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000c30                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x0000000008000c62       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000c62                USBD_LL_ClearStallEP
+                0x0000000008000c6e       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000c6e                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x0000000008000ca0       0x56 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000ca0                USBD_LL_IsStallEP
+                0x0000000008000cac       0x56 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000cac                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x0000000008000cf6       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000cf6                USBD_LL_SetUSBAddress
+                0x0000000008000d02       0x3e CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000d02                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x0000000008000d34       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000d34                USBD_LL_Transmit
+                0x0000000008000d40       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000d40                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x0000000008000d7a       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000d7a                USBD_LL_PrepareReceive
+                0x0000000008000d86       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000d86                USBD_LL_PrepareReceive
  .text.USBD_LL_GetRxDataSize
-                0x0000000008000dc0       0x26 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000dc0                USBD_LL_GetRxDataSize
- *fill*         0x0000000008000de6        0x2 
+                0x0000000008000dcc       0x26 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000dcc                USBD_LL_GetRxDataSize
+ *fill*         0x0000000008000df2        0x2 
  .text.USBD_static_malloc
-                0x0000000008000de8       0x18 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000de8                USBD_static_malloc
+                0x0000000008000df4       0x18 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000df4                USBD_static_malloc
  .text.USBD_static_free
-                0x0000000008000e00       0x12 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000e00                USBD_static_free
+                0x0000000008000e0c       0x12 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000e0c                USBD_static_free
  .text.HAL_PCDEx_SetConnectionState
-                0x0000000008000e12       0x16 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
-                0x0000000008000e12                HAL_PCDEx_SetConnectionState
+                0x0000000008000e1e       0x16 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000e1e                HAL_PCDEx_SetConnectionState
  .text.USBD_Get_USB_Status
-                0x0000000008000e28       0x58 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
+                0x0000000008000e34       0x58 CMakeFiles/BluepillLED.dir/USB_DEVICE/Target/usbd_conf.c.obj
  .text.HAL_PCD_Init
-                0x0000000008000e80      0x1ec CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x0000000008000e80                HAL_PCD_Init
+                0x0000000008000e8c      0x1ec CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008000e8c                HAL_PCD_Init
  .text.HAL_PCD_Start
-                0x000000000800106c       0x4c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x000000000800106c                HAL_PCD_Start
+                0x0000000008001078       0x4c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001078                HAL_PCD_Start
  .text.HAL_PCD_IRQHandler
-                0x00000000080010b8      0x260 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x00000000080010b8                HAL_PCD_IRQHandler
+                0x00000000080010c4      0x260 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x00000000080010c4                HAL_PCD_IRQHandler
  .text.HAL_PCD_SetAddress
-                0x0000000008001318       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x0000000008001318                HAL_PCD_SetAddress
+                0x0000000008001324       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001324                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x0000000008001360       0xba CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x0000000008001360                HAL_PCD_EP_Open
+                0x000000000800136c       0xba CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x000000000800136c                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Close
-                0x000000000800141a       0x90 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x000000000800141a                HAL_PCD_EP_Close
+                0x0000000008001426       0x90 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001426                HAL_PCD_EP_Close
  .text.HAL_PCD_EP_Receive
-                0x00000000080014aa       0x62 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x00000000080014aa                HAL_PCD_EP_Receive
+                0x00000000080014b6       0x62 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x00000000080014b6                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_GetRxCount
-                0x000000000800150c       0x2e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x000000000800150c                HAL_PCD_EP_GetRxCount
+                0x0000000008001518       0x2e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001518                HAL_PCD_EP_GetRxCount
  .text.HAL_PCD_EP_Transmit
-                0x000000000800153a       0x6e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x000000000800153a                HAL_PCD_EP_Transmit
+                0x0000000008001546       0x6e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001546                HAL_PCD_EP_Transmit
  .text.HAL_PCD_EP_SetStall
-                0x00000000080015a8       0xc0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x00000000080015a8                HAL_PCD_EP_SetStall
+                0x00000000080015b4       0xc0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x00000000080015b4                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x0000000008001668       0xa8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
-                0x0000000008001668                HAL_PCD_EP_ClrStall
+                0x0000000008001674       0xa8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001674                HAL_PCD_EP_ClrStall
  .text.PCD_EP_ISR_Handler
-                0x0000000008001710      0x7a0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x000000000800171c      0x7a0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
  .text.HAL_PCD_EP_DB_Receive
-                0x0000000008001eb0      0x21a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x0000000008001ebc      0x21a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
  .text.HAL_PCD_EP_DB_Transmit
-                0x00000000080020ca      0x7f4 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
+                0x00000000080020d6      0x7f4 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd.c.obj
  .text.HAL_PCDEx_PMAConfig
-                0x00000000080028be       0x84 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
-                0x00000000080028be                HAL_PCDEx_PMAConfig
+                0x00000000080028ca       0x84 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c.obj
+                0x00000000080028ca                HAL_PCDEx_PMAConfig
  .text.USB_CoreInit
-                0x0000000008002942       0x1a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008002942                USB_CoreInit
+                0x000000000800294e       0x1a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x000000000800294e                USB_CoreInit
  .text.USB_EnableGlobalInt
-                0x000000000800295c       0x2c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x000000000800295c                USB_EnableGlobalInt
+                0x0000000008002968       0x2c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008002968                USB_EnableGlobalInt
  .text.USB_DisableGlobalInt
-                0x0000000008002988       0x34 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008002988                USB_DisableGlobalInt
+                0x0000000008002994       0x34 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008002994                USB_DisableGlobalInt
  .text.USB_SetCurrentMode
-                0x00000000080029bc       0x18 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x00000000080029bc                USB_SetCurrentMode
+                0x00000000080029c8       0x18 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x00000000080029c8                USB_SetCurrentMode
  .text.USB_DevInit
-                0x00000000080029d4       0x3a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x00000000080029d4                USB_DevInit
- *fill*         0x0000000008002a0e        0x2 
+                0x00000000080029e0       0x3a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x00000000080029e0                USB_DevInit
+ *fill*         0x0000000008002a1a        0x2 
  .text.USB_ActivateEndpoint
-                0x0000000008002a10      0x780 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008002a10                USB_ActivateEndpoint
+                0x0000000008002a1c      0x780 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008002a1c                USB_ActivateEndpoint
  .text.USB_DeactivateEndpoint
-                0x0000000008003190      0x3d8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008003190                USB_DeactivateEndpoint
+                0x000000000800319c      0x3d8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x000000000800319c                USB_DeactivateEndpoint
  .text.USB_EPStartXfer
-                0x0000000008003568     0x1762 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008003568                USB_EPStartXfer
+                0x0000000008003574     0x1762 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008003574                USB_EPStartXfer
  .text.USB_EPSetStall
-                0x0000000008004cca       0xa0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004cca                USB_EPSetStall
+                0x0000000008004cd6       0xa0 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004cd6                USB_EPSetStall
  .text.USB_EPClearStall
-                0x0000000008004d6a      0x15a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004d6a                USB_EPClearStall
+                0x0000000008004d76      0x15a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004d76                USB_EPClearStall
  .text.USB_SetDevAddress
-                0x0000000008004ec4       0x26 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004ec4                USB_SetDevAddress
+                0x0000000008004ed0       0x26 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004ed0                USB_SetDevAddress
  .text.USB_DevConnect
-                0x0000000008004eea       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004eea                USB_DevConnect
+                0x0000000008004ef6       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004ef6                USB_DevConnect
  .text.USB_DevDisconnect
-                0x0000000008004efe       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004efe                USB_DevDisconnect
+                0x0000000008004f0a       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004f0a                USB_DevDisconnect
  .text.USB_ReadInterrupts
-                0x0000000008004f12       0x1e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004f12                USB_ReadInterrupts
+                0x0000000008004f1e       0x1e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004f1e                USB_ReadInterrupts
  .text.USB_EP0_OutStart
-                0x0000000008004f30       0x16 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004f30                USB_EP0_OutStart
+                0x0000000008004f3c       0x16 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004f3c                USB_EP0_OutStart
  .text.USB_WritePMA
-                0x0000000008004f46       0x8a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004f46                USB_WritePMA
+                0x0000000008004f52       0x8a CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004f52                USB_WritePMA
  .text.USB_ReadPMA
-                0x0000000008004fd0       0x9e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
-                0x0000000008004fd0                USB_ReadPMA
- *fill*         0x000000000800506e        0x2 
+                0x0000000008004fdc       0x9e CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usb.c.obj
+                0x0000000008004fdc                USB_ReadPMA
+ *fill*         0x000000000800507a        0x2 
  .text.HAL_Init
-                0x0000000008005070       0x2c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008005070                HAL_Init
+                0x000000000800507c       0x2c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000000000800507c                HAL_Init
  .text.HAL_InitTick
-                0x000000000800509c       0x60 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x000000000800509c                HAL_InitTick
+                0x00000000080050a8       0x60 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x00000000080050a8                HAL_InitTick
  .text.HAL_IncTick
-                0x00000000080050fc       0x24 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x00000000080050fc                HAL_IncTick
+                0x0000000008005108       0x24 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008005108                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008005120       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008005120                HAL_GetTick
+                0x000000000800512c       0x14 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x000000000800512c                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008005134       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x0000000008005134                HAL_Delay
+                0x0000000008005140       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000000008005140                HAL_Delay
  .text.HAL_RCC_OscConfig
-                0x000000000800517c      0x504 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x000000000800517c                HAL_RCC_OscConfig
+                0x0000000008005188      0x504 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008005188                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x0000000008005680      0x1d4 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0000000008005680                HAL_RCC_ClockConfig
+                0x000000000800568c      0x1d4 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000000000800568c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008005854       0xa8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x0000000008005854                HAL_RCC_GetSysClockFreq
+                0x0000000008005860       0xa8 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008005860                HAL_RCC_GetSysClockFreq
  .text.RCC_Delay
-                0x00000000080058fc       0x3c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008005908       0x3c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x0000000008005938      0x16c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
-                0x0000000008005938                HAL_RCCEx_PeriphCLKConfig
+                0x0000000008005944      0x16c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+                0x0000000008005944                HAL_RCCEx_PeriphCLKConfig
  .text.HAL_GPIO_Init
-                0x0000000008005aa4      0x308 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008005aa4                HAL_GPIO_Init
+                0x0000000008005ab0      0x308 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008005ab0                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008005dac       0x30 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008005dac                HAL_GPIO_WritePin
+                0x0000000008005db8       0x30 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008005db8                HAL_GPIO_WritePin
  .text.HAL_GPIO_TogglePin
-                0x0000000008005ddc       0x32 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x0000000008005ddc                HAL_GPIO_TogglePin
- *fill*         0x0000000008005e0e        0x2 
+                0x0000000008005de8       0x32 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0000000008005de8                HAL_GPIO_TogglePin
+ *fill*         0x0000000008005e1a        0x2 
  .text.__NVIC_SetPriorityGrouping
-                0x0000000008005e10       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005e1c       0x48 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0000000008005e58       0x1c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005e64       0x1c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x0000000008005e74       0x38 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005e80       0x38 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x0000000008005eac       0x54 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005eb8       0x54 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x0000000008005f00       0x64 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005f0c       0x64 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.SysTick_Config
-                0x0000000008005f64       0x44 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005f70       0x44 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008005fa8       0x16 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008005fa8                HAL_NVIC_SetPriorityGrouping
+                0x0000000008005fb4       0x16 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005fb4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008005fbe       0x38 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008005fbe                HAL_NVIC_SetPriority
+                0x0000000008005fca       0x38 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008005fca                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008005ff6       0x1c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008005ff6                HAL_NVIC_EnableIRQ
+                0x0000000008006002       0x1c CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0000000008006002                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008006012       0x18 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0000000008006012                HAL_SYSTICK_Config
+                0x000000000800601e       0x18 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x000000000800601e                HAL_SYSTICK_Config
  .text.SystemInit
-                0x000000000800602a        0xc CMakeFiles/BluepillLED.dir/Core/Src/system_stm32f1xx.c.obj
-                0x000000000800602a                SystemInit
+                0x0000000008006036        0xc CMakeFiles/BluepillLED.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0000000008006036                SystemInit
  .text.USBD_Init
-                0x0000000008006036       0x56 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006036                USBD_Init
+                0x0000000008006042       0x56 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008006042                USBD_Init
  .text.USBD_RegisterClass
-                0x000000000800608c       0x32 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x000000000800608c                USBD_RegisterClass
+                0x0000000008006098       0x32 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008006098                USBD_RegisterClass
  .text.USBD_Start
-                0x00000000080060be       0x18 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080060be                USBD_Start
+                0x00000000080060ca       0x18 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080060ca                USBD_Start
  .text.USBD_RunTestMode
-                0x00000000080060d6       0x14 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080060d6                USBD_RunTestMode
+                0x00000000080060e2       0x14 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080060e2                USBD_RunTestMode
  .text.USBD_SetClassConfig
-                0x00000000080060ea       0x3e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080060ea                USBD_SetClassConfig
+                0x00000000080060f6       0x3e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080060f6                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x0000000008006128       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006128                USBD_ClrClassConfig
+                0x0000000008006134       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008006134                USBD_ClrClassConfig
  .text.USBD_LL_SetupStage
-                0x000000000800614e       0x9a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x000000000800614e                USBD_LL_SetupStage
+                0x000000000800615a       0x9a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x000000000800615a                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x00000000080061e8       0xe2 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080061e8                USBD_LL_DataOutStage
+                0x00000000080061f4       0xe2 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080061f4                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x00000000080062ca      0x14a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080062ca                USBD_LL_DataInStage
+                0x00000000080062d6      0x14a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080062d6                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x0000000008006414       0x82 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006414                USBD_LL_Reset
+                0x0000000008006420       0x82 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008006420                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x0000000008006496       0x1e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006496                USBD_LL_SetSpeed
+                0x00000000080064a2       0x1e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080064a2                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x00000000080064b4       0x28 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080064b4                USBD_LL_Suspend
+                0x00000000080064c0       0x28 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080064c0                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x00000000080064dc       0x2a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x00000000080064dc                USBD_LL_Resume
+                0x00000000080064e8       0x2a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x00000000080064e8                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x0000000008006506       0x34 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
-                0x0000000008006506                USBD_LL_SOF
- *fill*         0x000000000800653a        0x2 
+                0x0000000008006512       0x34 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+                0x0000000008006512                USBD_LL_SOF
+ *fill*         0x0000000008006546        0x2 
  .text.USBD_StdDevReq
-                0x000000000800653c       0xd4 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x000000000800653c                USBD_StdDevReq
+                0x0000000008006548       0xd4 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006548                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x0000000008006610       0x90 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008006610                USBD_StdItfReq
+                0x000000000800661c       0x90 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x000000000800661c                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x00000000080066a0      0x2c6 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x00000000080066a0                USBD_StdEPReq
- *fill*         0x0000000008006966        0x2 
+                0x00000000080066ac      0x2c6 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x00000000080066ac                USBD_StdEPReq
+ *fill*         0x0000000008006972        0x2 
  .text.USBD_GetDescriptor
-                0x0000000008006968      0x2d0 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006974      0x2d0 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetAddress
-                0x0000000008006c38       0x86 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
- *fill*         0x0000000008006cbe        0x2 
+                0x0000000008006c44       0x86 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ *fill*         0x0000000008006cca        0x2 
  .text.USBD_SetConfig
-                0x0000000008006cc0      0x11c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006ccc      0x11c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetConfig
-                0x0000000008006ddc       0x6a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006de8       0x6a CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_GetStatus
-                0x0000000008006e46       0x66 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006e52       0x66 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_SetFeature
-                0x0000000008006eac       0x28 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006eb8       0x28 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ClrFeature
-                0x0000000008006ed4       0x42 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006ee0       0x42 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_ParseSetupRequest
-                0x0000000008006f16       0x78 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008006f16                USBD_ParseSetupRequest
+                0x0000000008006f22       0x78 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006f22                USBD_ParseSetupRequest
  .text.USBD_CtlError
-                0x0000000008006f8e       0x22 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008006f8e                USBD_CtlError
+                0x0000000008006f9a       0x22 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006f9a                USBD_CtlError
  .text.USBD_GetString
-                0x0000000008006fb0       0x84 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
-                0x0000000008006fb0                USBD_GetString
+                0x0000000008006fbc       0x84 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008006fbc                USBD_GetString
  .text.USBD_GetLen
-                0x0000000008007034       0x2e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+                0x0000000008007040       0x2e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
  .text.USBD_CtlSendData
-                0x0000000008007062       0x38 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007062                USBD_CtlSendData
+                0x000000000800706e       0x38 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x000000000800706e                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x000000000800709a       0x24 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x000000000800709a                USBD_CtlContinueSendData
+                0x00000000080070a6       0x24 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x00000000080070a6                USBD_CtlContinueSendData
  .text.USBD_CtlPrepareRx
-                0x00000000080070be       0x3c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x00000000080070be                USBD_CtlPrepareRx
+                0x00000000080070ca       0x3c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x00000000080070ca                USBD_CtlPrepareRx
  .text.USBD_CtlContinueRx
-                0x00000000080070fa       0x24 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x00000000080070fa                USBD_CtlContinueRx
+                0x0000000008007106       0x24 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0000000008007106                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x000000000800711e       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x000000000800711e                USBD_CtlSendStatus
+                0x000000000800712a       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x000000000800712a                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x0000000008007144       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
-                0x0000000008007144                USBD_CtlReceiveStatus
+                0x0000000008007150       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+                0x0000000008007150                USBD_CtlReceiveStatus
  .text.USBD_CDC_Init
-                0x000000000800716a       0xf4 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007176       0xf4 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DeInit
-                0x000000000800725e       0x6e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x000000000800726a       0x6e CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_Setup
-                0x00000000080072cc      0x146 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080072d8      0x146 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataIn
-                0x0000000008007412       0xa6 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x000000000800741e       0xa6 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_DataOut
-                0x00000000080074b8       0x56 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080074c4       0x56 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_EP0_RxReady
-                0x000000000800750e       0x50 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
- *fill*         0x000000000800755e        0x2 
+                0x000000000800751a       0x50 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+ *fill*         0x000000000800756a        0x2 
  .text.USBD_CDC_GetFSCfgDesc
-                0x0000000008007560       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x000000000800756c       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetHSCfgDesc
-                0x0000000008007580       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x000000000800758c       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-                0x00000000080075a0       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080075ac       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-                0x00000000080075c0       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x00000000080075c0                USBD_CDC_GetDeviceQualifierDescriptor
+                0x00000000080075cc       0x20 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080075cc                USBD_CDC_GetDeviceQualifierDescriptor
  .text.USBD_CDC_RegisterInterface
-                0x00000000080075e0       0x2c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x00000000080075e0                USBD_CDC_RegisterInterface
+                0x00000000080075ec       0x2c CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x00000000080075ec                USBD_CDC_RegisterInterface
  .text.USBD_CDC_SetTxBuffer
-                0x000000000800760c       0x32 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x000000000800760c                USBD_CDC_SetTxBuffer
+                0x0000000008007618       0x32 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007618                USBD_CDC_SetTxBuffer
  .text.USBD_CDC_SetRxBuffer
-                0x000000000800763e       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x000000000800763e                USBD_CDC_SetRxBuffer
+                0x000000000800764a       0x26 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x000000000800764a                USBD_CDC_SetRxBuffer
  .text.USBD_CDC_ReceivePacket
-                0x0000000008007664       0x54 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
-                0x0000000008007664                USBD_CDC_ReceivePacket
+                0x0000000008007670       0x54 CMakeFiles/BluepillLED.dir/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj
+                0x0000000008007670                USBD_CDC_ReceivePacket
  .text.Reset_Handler
-                0x00000000080076b8       0x48 CMakeFiles/BluepillLED.dir/startup_stm32f103xb.s.obj
-                0x00000000080076b8                Reset_Handler
+                0x00000000080076c4       0x48 CMakeFiles/BluepillLED.dir/startup_stm32f103xb.s.obj
+                0x00000000080076c4                Reset_Handler
  .text.Default_Handler
-                0x0000000008007700        0x2 CMakeFiles/BluepillLED.dir/startup_stm32f103xb.s.obj
-                0x0000000008007700                RTC_Alarm_IRQHandler
-                0x0000000008007700                EXTI2_IRQHandler
-                0x0000000008007700                TIM1_CC_IRQHandler
-                0x0000000008007700                PVD_IRQHandler
-                0x0000000008007700                EXTI3_IRQHandler
-                0x0000000008007700                EXTI0_IRQHandler
-                0x0000000008007700                I2C2_EV_IRQHandler
-                0x0000000008007700                ADC1_2_IRQHandler
-                0x0000000008007700                SPI1_IRQHandler
-                0x0000000008007700                TAMPER_IRQHandler
-                0x0000000008007700                DMA1_Channel4_IRQHandler
-                0x0000000008007700                USART3_IRQHandler
-                0x0000000008007700                RTC_IRQHandler
-                0x0000000008007700                DMA1_Channel7_IRQHandler
-                0x0000000008007700                CAN1_RX1_IRQHandler
-                0x0000000008007700                TIM4_IRQHandler
-                0x0000000008007700                I2C1_EV_IRQHandler
-                0x0000000008007700                DMA1_Channel6_IRQHandler
-                0x0000000008007700                TIM3_IRQHandler
-                0x0000000008007700                RCC_IRQHandler
-                0x0000000008007700                TIM1_TRG_COM_IRQHandler
-                0x0000000008007700                DMA1_Channel1_IRQHandler
-                0x0000000008007700                Default_Handler
-                0x0000000008007700                EXTI15_10_IRQHandler
-                0x0000000008007700                EXTI9_5_IRQHandler
-                0x0000000008007700                SPI2_IRQHandler
-                0x0000000008007700                DMA1_Channel5_IRQHandler
-                0x0000000008007700                EXTI4_IRQHandler
-                0x0000000008007700                USB_HP_CAN1_TX_IRQHandler
-                0x0000000008007700                DMA1_Channel3_IRQHandler
-                0x0000000008007700                TIM1_UP_IRQHandler
-                0x0000000008007700                WWDG_IRQHandler
-                0x0000000008007700                TIM2_IRQHandler
-                0x0000000008007700                TIM1_BRK_IRQHandler
-                0x0000000008007700                EXTI1_IRQHandler
-                0x0000000008007700                USART2_IRQHandler
-                0x0000000008007700                I2C2_ER_IRQHandler
-                0x0000000008007700                DMA1_Channel2_IRQHandler
-                0x0000000008007700                CAN1_SCE_IRQHandler
-                0x0000000008007700                FLASH_IRQHandler
-                0x0000000008007700                USART1_IRQHandler
-                0x0000000008007700                I2C1_ER_IRQHandler
-                0x0000000008007700                USBWakeUp_IRQHandler
+                0x000000000800770c        0x2 CMakeFiles/BluepillLED.dir/startup_stm32f103xb.s.obj
+                0x000000000800770c                RTC_Alarm_IRQHandler
+                0x000000000800770c                EXTI2_IRQHandler
+                0x000000000800770c                TIM1_CC_IRQHandler
+                0x000000000800770c                PVD_IRQHandler
+                0x000000000800770c                EXTI3_IRQHandler
+                0x000000000800770c                EXTI0_IRQHandler
+                0x000000000800770c                I2C2_EV_IRQHandler
+                0x000000000800770c                ADC1_2_IRQHandler
+                0x000000000800770c                SPI1_IRQHandler
+                0x000000000800770c                TAMPER_IRQHandler
+                0x000000000800770c                DMA1_Channel4_IRQHandler
+                0x000000000800770c                USART3_IRQHandler
+                0x000000000800770c                RTC_IRQHandler
+                0x000000000800770c                DMA1_Channel7_IRQHandler
+                0x000000000800770c                CAN1_RX1_IRQHandler
+                0x000000000800770c                TIM4_IRQHandler
+                0x000000000800770c                I2C1_EV_IRQHandler
+                0x000000000800770c                DMA1_Channel6_IRQHandler
+                0x000000000800770c                TIM3_IRQHandler
+                0x000000000800770c                RCC_IRQHandler
+                0x000000000800770c                TIM1_TRG_COM_IRQHandler
+                0x000000000800770c                DMA1_Channel1_IRQHandler
+                0x000000000800770c                Default_Handler
+                0x000000000800770c                EXTI15_10_IRQHandler
+                0x000000000800770c                EXTI9_5_IRQHandler
+                0x000000000800770c                SPI2_IRQHandler
+                0x000000000800770c                DMA1_Channel5_IRQHandler
+                0x000000000800770c                EXTI4_IRQHandler
+                0x000000000800770c                USB_HP_CAN1_TX_IRQHandler
+                0x000000000800770c                DMA1_Channel3_IRQHandler
+                0x000000000800770c                TIM1_UP_IRQHandler
+                0x000000000800770c                WWDG_IRQHandler
+                0x000000000800770c                TIM2_IRQHandler
+                0x000000000800770c                TIM1_BRK_IRQHandler
+                0x000000000800770c                EXTI1_IRQHandler
+                0x000000000800770c                USART2_IRQHandler
+                0x000000000800770c                I2C2_ER_IRQHandler
+                0x000000000800770c                DMA1_Channel2_IRQHandler
+                0x000000000800770c                CAN1_SCE_IRQHandler
+                0x000000000800770c                FLASH_IRQHandler
+                0x000000000800770c                USART1_IRQHandler
+                0x000000000800770c                I2C1_ER_IRQHandler
+                0x000000000800770c                USBWakeUp_IRQHandler
  *(.glue_7)
- .glue_7        0x0000000008007702        0x0 linker stubs
+ .glue_7        0x000000000800770e        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008007702        0x0 linker stubs
+ .glue_7t       0x000000000800770e        0x0 linker stubs
  *(.eh_frame)
- *fill*         0x0000000008007702        0x2 
- .eh_frame      0x0000000008007704        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ *fill*         0x000000000800770e        0x2 
+ .eh_frame      0x0000000008007710        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008007704        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008007704                _init
- .init          0x0000000008007708        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0000000008007710        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008007710                _init
+ .init          0x0000000008007714        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008007710        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008007710                _fini
- .fini          0x0000000008007714        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x000000000800771c                . = ALIGN (0x4)
-                0x000000000800771c                _etext = .
+ .fini          0x000000000800771c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x000000000800771c                _fini
+ .fini          0x0000000008007720        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000008007728                . = ALIGN (0x4)
+                0x0000000008007728                _etext = .
 
-.vfp11_veneer   0x000000000800771c        0x0
- .vfp11_veneer  0x000000000800771c        0x0 linker stubs
+.vfp11_veneer   0x0000000008007728        0x0
+ .vfp11_veneer  0x0000000008007728        0x0 linker stubs
 
-.v4_bx          0x000000000800771c        0x0
- .v4_bx         0x000000000800771c        0x0 linker stubs
+.v4_bx          0x0000000008007728        0x0
+ .v4_bx         0x0000000008007728        0x0 linker stubs
 
-.iplt           0x000000000800771c        0x0
- .iplt          0x000000000800771c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0000000008007728        0x0
+ .iplt          0x0000000008007728        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x000000000800771c       0x6c
-                0x000000000800771c                . = ALIGN (0x4)
+.rodata         0x0000000008007728       0x6c
+                0x0000000008007728                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x000000000800771c       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
+ .rodata        0x0000000008007728       0x46 CMakeFiles/BluepillLED.dir/USB_DEVICE/App/usbd_desc.c.obj
  *(.rodata*)
- *fill*         0x0000000008007762        0x2 
+ *fill*         0x000000000800776e        0x2 
  .rodata.aPLLMULFactorTable.1
-                0x0000000008007764       0x10 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x0000000008007770       0x10 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .rodata.aPredivFactorTable.0
-                0x0000000008007774        0x2 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x0000000008007776        0x2 
+                0x0000000008007780        0x2 CMakeFiles/BluepillLED.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x0000000008007782        0x2 
  .rodata.AHBPrescTable
-                0x0000000008007778       0x10 CMakeFiles/BluepillLED.dir/Core/Src/system_stm32f1xx.c.obj
-                0x0000000008007778                AHBPrescTable
-                0x0000000008007788                . = ALIGN (0x4)
+                0x0000000008007784       0x10 CMakeFiles/BluepillLED.dir/Core/Src/system_stm32f1xx.c.obj
+                0x0000000008007784                AHBPrescTable
+                0x0000000008007794                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008007788        0x0
- .rel.iplt      0x0000000008007788        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008007794        0x0
+ .rel.iplt      0x0000000008007794        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008007788        0x0
-                0x0000000008007788                __exidx_start = .
+.ARM            0x0000000008007794        0x0
+                0x0000000008007794                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008007788                __exidx_end = .
+                0x0000000008007794                __exidx_end = .
 
-.preinit_array  0x0000000008007788        0x0
-                0x0000000008007788                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008007794        0x0
+                0x0000000008007794                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008007788                PROVIDE (__preinit_array_end = .)
+                0x0000000008007794                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008007788        0x4
-                0x0000000008007788                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008007794        0x4
+                0x0000000008007794                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008007788        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x000000000800778c                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008007794        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008007798                PROVIDE (__init_array_end = .)
 
-.fini_array     0x000000000800778c        0x4
-                0x000000000800778c                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008007798        0x4
+                0x0000000008007798                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x000000000800778c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008007790                PROVIDE (__fini_array_end = .)
-                0x0000000008007790                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008007798        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x000000000800779c                PROVIDE (__fini_array_end = .)
+                0x000000000800779c                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x17c load address 0x0000000008007790
+.data           0x0000000020000000      0x17c load address 0x000000000800779c
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -3902,17 +3902,17 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x000000002000017c                _edata = .
 
 .tm_clone_table
-                0x000000002000017c        0x0 load address 0x000000000800790c
+                0x000000002000017c        0x0 load address 0x0000000008007918
  .tm_clone_table
                 0x000000002000017c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  .tm_clone_table
                 0x000000002000017c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtend.o
 
-.igot.plt       0x000000002000017c        0x0 load address 0x000000000800790c
+.igot.plt       0x000000002000017c        0x0 load address 0x0000000008007918
  .igot.plt      0x000000002000017c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x000000002000017c                . = ALIGN (0x4)
 
-.bss            0x000000002000017c     0x11e0 load address 0x000000000800790c
+.bss            0x000000002000017c     0x11e0 load address 0x0000000008007918
                 0x000000002000017c                _sbss = .
                 0x000000002000017c                __bss_start__ = _sbss
  *(.bss)
@@ -3944,7 +3944,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
                 0x000000002000135c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x000000002000135c      0x604 load address 0x000000000800790c
+                0x000000002000135c      0x604 load address 0x0000000008007918
                 0x0000000020001360                . = ALIGN (0x8)
  *fill*         0x000000002000135c        0x4 
                 [!provide]                        PROVIDE (end = .)
